@@ -11,14 +11,21 @@ header {
     font-size: larger;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
 .menu {
     background-color: #4f9f9f;
     text-align: center;
+    order: 2;
 }
 
 .text-body {
     background-color: #d1cfcf;
     text-align: justify;
+    order: 0;
 }
 
 .text-body p:first-child {
@@ -41,6 +48,7 @@ nav {
     background-color: orange;
     text-align: center;
     padding: 15px 0;
+    order: 3;
 }
 
 aside {
